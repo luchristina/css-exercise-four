@@ -9,32 +9,40 @@ body {
 
 .container {
   margin: 0 auto;
-  background-color:#dadada;
+  width:100%;
+  position:relative;
 }
 
 section {
   margin:0 auto;
+  height:100%;
+  width:100%;
+  background-color:#dadada;
+}
+
+.emphasis {
+  font-style:italic;
 }
 
 div {
   float:left;
-  position:relative;
   margin:0 auto;
   padding:10px;
+  background-color:#dadada;
   text-align:center;
-  box-sizing:border-box;
 }
 
 .container h1 {
   letter-spacing:2px;
   text-transform:uppercase;
   font-size:1em;
+  text-align:center;
 }
 
 
 .previewbaku img, .previewlondon img, .previewmadrid img, .previewrome img {
-  width:200px;
-  height:150px;
+  width:30em;
+  height:30em;
 }
 
 .previewbaku, .previewlondon, .previewmadrid, .previewrome {
@@ -54,8 +62,8 @@ div {
 
 @media screen and (min-width: 375px) {
   .previewbaku img, .previewlondon img, .previewmadrid img, .previewrome img {
-    width:100px;
-    height:100px;
+    width:10em;
+    height:10em;
   }
 
   .previewbaku, .previewlondon, .previewmadrid, .previewrome {
@@ -76,8 +84,8 @@ div {
 
 @media screen and (min-width: 768px) {
   .previewbaku img, .previewlondon img, .previewmadrid img, .previewrome img {
-    width:150px;
-    height:150px;
+    width:15em;
+    height:15em;
   }
 
   .previewbaku, .previewlondon, .previewmadrid, .previewrome {
@@ -98,8 +106,8 @@ div {
 
 @media screen and (min-width: 1199px) {
   .previewbaku img, .previewlondon img, .previewmadrid img, .previewrome img {
-    width:200px;
-    height:150px;
+    width:20em;
+    height:20em;
   }
 
   .previewbaku, .previewlondon, .previewmadrid, .previewrome {
